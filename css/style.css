@@ -1,0 +1,87 @@
+/* general */
+
+body {
+  width: 960px
+}
+
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 28px;
+  display:inline-block
+}
+
+hr {
+  clear: both;
+}
+
+
+
+/* header */
+#navcontainer {
+  margin-bottom:
+}
+
+#logoimg {
+  float: left
+}
+
+#delicious {
+  float: left
+}
+
+header ul {
+  float: right;
+  padding
+}
+
+header li {
+  display: inline;
+}
+
+h6 {
+  font-family: 'Abel', sans-serif;
+}
+
+/* body */
+main h1 {
+  font-size: 30px
+}
+
+#print {
+  float: right;
+  display: inline
+}
+
+#printicon {
+  float: right
+}
+
+
+#instructions p{
+  text-align: center;
+  margin-top: 30px
+}
+
+#ingredients {
+  margin-top: 30px;
+  background-image: url("img/list-bg.png");
+  height: 300px;
+  width: 100%;
+}
+
+#leftlist {
+  float: left;
+  margin-left: 300px
+}
+
+#rightlist {
+  float: right;
+
+}
+
+
+main li {
+  font-family: 'Patrick Hand', cursive;
+}
+
+/* footer */
