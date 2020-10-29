@@ -1,7 +1,8 @@
 /* general */
 
 body {
-  width: 960px
+  width: 960px;
+  margin: auto
 }
 
 h2 {
@@ -13,8 +14,6 @@ h2 {
 hr {
   clear: both;
 }
-
-
 
 /* header */
 #navcontainer {
@@ -56,6 +55,9 @@ main h1 {
   float: right
 }
 
+#chocopizza {
+  width: 960px
+}
 
 #instructions p{
   text-align: center;
