@@ -11,15 +11,16 @@ h2 {
   display:inline-block
 }
 
+#navcontainer {
+  padding-bottom: 30px
+}
+
 hr {
   clear: both;
+  height: 20px;
 }
 
 /* header */
-#navcontainer {
-  margin-bottom:
-}
-
 #logoimg {
   float: left
 }
@@ -30,7 +31,6 @@ hr {
 
 header ul {
   float: right;
-  padding
 }
 
 header li {
@@ -56,34 +56,99 @@ main h1 {
 }
 
 #chocopizza {
-  width: 960px
-}
-
-#instructions p{
-  text-align: center;
+  width: 960px;
   margin-top: 30px
 }
 
-#ingredients {
+#instructions p{
+  text-align: left;
   margin-top: 30px;
+  font-size: 20px;
+  text-indent: 50px;
+}
+
+
+
+#ingredients {
+  margin: 30px 0;
   background-image: url("img/list-bg.png");
-  height: 300px;
+  /* height: 300px; */
   width: 100%;
+  margin-bottom: 350px;
+  position: relative;
+
+
+}
+
+#listbg {
+  float:left;
+}
+
+#leftlist, #rightlist {
+  position: absolute
 }
 
 #leftlist {
   float: left;
-  margin-left: 300px
+  margin-left: 100px;
+  top: 80px;
+
 }
 
 #rightlist {
   float: right;
-
+  margin-right: 150px;
+  top: 80px;
+  left: 450px
 }
-
 
 main li {
   font-family: 'Patrick Hand', cursive;
 }
 
+#photo {
+  float: left
+}
+
+button {
+  float: right;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  background-color: rgba(220, 85, 2, 0.735);
+  font-size: 16px;
+  padding: 8px 25px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#bio {
+  font-size:20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 590px
+}
 /* footer */
+
+
+#smalllogo {
+  clear: both;
+  display: inline-block;
+  margin: auto;
+}
+
+#p1 {
+  margin-top: 30px;
+  clear:both
+}
+
+footer p {
+  text-align: center;
+}
+
+.smallhr {
+  width: 45%;
+  float: left;
+  display: inline
+}
